@@ -1,0 +1,23 @@
+.main-container {
+    width: 100%;
+}
+
+.page-header {
+    background-color: #263238;
+    vertical-align: middle;
+    position: static;
+}
+
+.title-text {
+    color: #fff;
+    font-size: 18px;
+}
+
+.page-body {
+    width: 100%;
+}
+
+.home-link, .home-link:hover {
+    color: white;
+    text-decoration: none;
+} 
