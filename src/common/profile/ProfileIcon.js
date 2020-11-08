@@ -34,7 +34,7 @@ function ProfileIcon(props) {
                 if (props.type === "avatarWithMenu") {
                     return (<div>
                         <IconButton className={classes.userAvatar} onClick={handleOpen}>
-                            <Avatar alt="AS" src={ProfileImage} /></IconButton>
+                            <Avatar alt="manaswinikolluru1" src={ProfileImage} /></IconButton>
                         <Menu id="profile-menu" anchorEl={anchor} keepMounted open={Boolean(anchor)} onClose={handleClose}>
                             {props.menuOptions.map((menuItem, index) => (
                                 <div key={"menu-item-" + index} >
