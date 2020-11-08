@@ -6,7 +6,7 @@ import PostLikes from '../../common/post/PostLikes';
 import PostComments from '../../common/post/PostComments';
 import Header from '../../common/header/Header';
 import ProfileIcon from '../../common/profile/ProfileIcon';
-import Search from '../../common/Search/Search';
+import Search from '../../common/search/Search';
 import './Home.css';
 import Config from '../../common/Config';
 
@@ -121,4 +121,4 @@ export default class Home extends Component {
             </Header>
         );
     }
-} 
+}
